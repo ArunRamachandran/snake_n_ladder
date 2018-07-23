@@ -1,0 +1,71 @@
+#game {
+  width: 75%;
+  float: right;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  display: table;
+}
+#gameBoardSection {
+  border: 3px inset #0FF;
+  border-radius: 10px;
+  width: 65%;
+  display: table-cell;
+}
+table {
+  width: 100%;
+}
+
+td {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  line-height: normal;
+  vertical-align: bottom;
+  text-align: left;
+  border: 0px solid #FFFFFF;
+  position: relative;
+}
+
+table tr:nth-child(odd) td:nth-child(even),
+table tr:nth-child(even) td:nth-child(odd) {
+  background-color: PowderBlue;
+}
+table tr:nth-child(even) td:nth-child(even),
+table tr:nth-child(odd) td:nth-child(odd) {
+  background-color: SkyBlue;
+}
+
+#playingZone{
+	float: left;
+	margin-left: 5%;
+}
+
+#player1 {
+    background-color: lightpink;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin:	2px;
+}
+
+#player2 {
+    background-color: lightgreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+#startBtn {
+    padding: 10px 30px;
+    background-color: mediumslateblue;
+    border-radius: 10px;
+    margin: 15px;
+    z-index: 10;
+    box-shadow: 6px 6px lightgrey;
+}
+#startBtn:hover {
+	cursor: pointer;
+}
+
+#diceZone {
+	visibility: hidden;
+}
