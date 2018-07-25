@@ -1,29 +1,29 @@
 #game {
-  width: 75%;
+  /* width: 75%;
   float: right;
-  /*margin-left: auto;
-  margin-right: auto;*/
-  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  display: table; */
 }
 #gameBoardSection {
-  border: 3px inset #0FF;
+  /* border: 3px inset #0FF;
   border-radius: 10px;
   width: 65%;
-  display: table-cell;
+  display: table-cell; */
 }
 table {
-  width: 100%;
+  /*width: 100%;*/
 }
 
 td {
-  border-radius: 10px;
+  /* border-radius: 10px;
   width: 60px;
   height: 60px;
   line-height: normal;
   vertical-align: bottom;
   text-align: left;
   border: 0px solid #FFFFFF;
-  position: relative;
+  position: relative; */
 }
 
 table tr:nth-child(odd) td:nth-child(even),
